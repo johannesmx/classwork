@@ -3,12 +3,14 @@
     --black: #000000;
     --vibrant-green: #16ff43;
     --blue-orchid: #1648ff;
-    --raspberry-rose: hsla(341, 43%, 47%, 1);
-    --murrey: hsla(325, 72%, 31%, 1);
+    --sky-blue: #16d3ff;
+    --orange: #f67b09;
     --grey: hsl(0, 0%, 51%);
     --lightgrey: hsl(0, 0%, 90%);
     --darkgrey: hsl(0, 0%, 20%);
     --translucent-dark: hsla(0, 0%, 20%, 0.6);
+    --translucent-white: #ffffff36;
+    --yellow: #ffe21f;
 }
 
 body {
@@ -23,7 +25,7 @@ body {
 }
 
 .header {
-    background-color: var(--murrey);
+    background-color: var(--translucent-dark);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,7 +39,7 @@ body {
     padding: 0.5em;
 }
 .right-nav a:hover {
-    color: var(--blue-orchid);
+    color: var(--sky-blue);
 }
 .right-nav {
     display: flex;
@@ -63,8 +65,8 @@ body {
     padding: 0.6em;
     border: 2px solid transparent;
     border-radius: 0px 10px 10px 0px;
-    background-color: var(--raspberry-rose);
-    color: var(--lightgrey);
+    background-color: var(--vibrant-green);
+    color: var(--black);
 }
 .product-nav {
     display: flex;
@@ -84,7 +86,7 @@ body {
     padding: 1em;
 }
 .home-banner {
-    background-color: var(--vibrant-green);
+    background-color: var(--black);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,16 +108,16 @@ body {
     background-repeat: no-repeat;
 }
 .banner-text {
-    background-color: var(--translucent-dark);
+    background-color: var(--translucent-white);
     /* padding: 1em; */
-    color: var(--black);
+    color: var(--yellow);
     text-align: center;
 }
 .banner-text h2 {
     font-size: 1.5em;
 }
 .banner-text a {
-    background-color: var(--murrey);
+    background-color: var(--orange);
     color: var(--lightgrey);
     text-decoration: none;
     font-size: 1.5em;
@@ -130,7 +132,7 @@ body {
     background-color: transparent;
     border: 1px solid transparent;
     font-size: 2em;
-    color: var(--black);
+    color: var(--vibrant-green);
 }
 /* cards */
 .card img {
@@ -146,7 +148,7 @@ body {
 }
 .card-button {
     background-color: var(--murrey);
-    color: var(--black);
+    color: var(--vibrant-green);
     padding: 0.5em;
     text-decoration: none;
     display: block;
@@ -167,7 +169,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--raspberry-rose);
+    background-color: var(--translucent-dark);
     padding: 1em;
     background-image: linear-gradient(45deg,var(--steel-blue),var(--murrey));
 }
