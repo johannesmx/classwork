@@ -38,8 +38,8 @@ body {
 }
 .right-nav a {
     color: var(--lightgrey);
-    font-size: 1.5em;
-    text-decoration: bold;
+    font-size: 1.2em;
+    text-decoration: none;
     padding: 0.5em;
 }
 .right-nav a:hover {
@@ -48,8 +48,8 @@ body {
 .right-nav {
     display: flex;
     flex-direction: row;
-    margin-right: 50px;
-    margin-left: center;
+    margin-right: 30px;
+    margin-left: auto;
     gap: 30px;
 }
 #search-form {
@@ -68,7 +68,7 @@ body {
 #search-form button {
     padding: 0.6em;
     border: 2px solid transparent;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 0px 0px 10px;
     background-color: var(--vibrant-green);
     color: var(--black);
 }
@@ -94,7 +94,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
+    min-height: 50vh;
+    background-image: url("website images/image.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
