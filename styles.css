@@ -5,28 +5,32 @@
     --blue-orchid: #1648ff;
     --sky-blue: #16d3ff;
     --orange: #f67b09;
-    --grey: hsl(0, 0%, 51%);
-    --lightgrey: hsl(0, 0%, 90%);
-    --darkgrey: hsl(0, 0%, 20%);
-    --translucent-dark: hsla(0, 0%, 20%, 0.6);
+    --grey: #828282;
+    --lightgrey: #e6e6e6;
+    --darkgrey: #333333;
+    --translucent-dark: #33333399;
     --translucent-white: #ffffff36;
     --yellow: #ffe21f;
 }
 
 body {
-    background-color: var(--black);
+    background-image: url('website images/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Racing Sans One", sans-serif;
 }
 
+
 .logo {
-    width: 120px;
+    width: 100px;
     display: block;
 }
 
 .header {
-    background-color: var(--translucent-dark);
-    display: flex;
+    background-color: var(--translucent-white);
+    display: block;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -34,8 +38,8 @@ body {
 }
 .right-nav a {
     color: var(--lightgrey);
-    font-size: 1.2em;
-    text-decoration: none;
+    font-size: 1.5em;
+    text-decoration: bold;
     padding: 0.5em;
 }
 .right-nav a:hover {
@@ -44,8 +48,8 @@ body {
 .right-nav {
     display: flex;
     flex-direction: row;
-    margin-right: 30px;
-    margin-left: auto;
+    margin-right: 50px;
+    margin-left: center;
     gap: 30px;
 }
 #search-form {
@@ -86,23 +90,22 @@ body {
     padding: 1em;
 }
 .home-banner {
-    background-color: var(--black);
+    background-color: var(--translucent-dark);
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
-    background-image: url("dinoball.jpg");
+    min-height: 60vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.women-banner {
+.products-banner {
     background-color: var(--vibrant-green);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 50vh;
-    background-image: url("banner-images/women-soccer.jfif");
+    background-image: url("products/Boxing Gloves prdct 1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
